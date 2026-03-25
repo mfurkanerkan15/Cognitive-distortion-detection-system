@@ -15,3 +15,6 @@ The system is divided into two specialized stages to ensure high precision:
 ## 🛠 Features
 - **Turkish Support:** Specifically trained on Turkish datasets for high-accuracy NLP tasks.
 - **Web App:** A real-time inference interface built with **Streamlit**.
+
+
+<img width="1421" height="647" alt="screenshot" src="https://github.com/user-attachments/assets/80f00ec9-5a6e-453d-9874-61c116872b6a" />
