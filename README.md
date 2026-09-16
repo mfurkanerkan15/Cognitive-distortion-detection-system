@@ -63,8 +63,8 @@ flowchart TD
 
 ### 1. Depoyu Klonlayın
 ```bash
-git clone https://github.com/mfurkanerkan15/cognitive-distortion-detector.git
-cd cognitive-distortion-detector
+git clone https://github.com/mfurkanerkan15/Cognitive-distortion-detection-system.git
+cd Cognitive-distortion-detection-system
 ```
 
 ### 2. Sanal Ortam Oluşturun ve Aktif Edin
