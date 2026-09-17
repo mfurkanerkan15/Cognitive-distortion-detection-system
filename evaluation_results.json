@@ -1,0 +1,251 @@
+{
+  "model1": {
+    "accuracy": 0.9732142857142857,
+    "macro_avg": {
+      "precision": 0.9738186462324393,
+      "recall": 0.9732142857142858,
+      "f1_score": 0.9732057416267943
+    },
+    "weighted_avg": {
+      "precision": 0.9738186462324394,
+      "recall": 0.9732142857142857,
+      "f1_score": 0.9732057416267944
+    },
+    "per_class": [
+      {
+        "class_id": 0,
+        "class_name": "YOK (Sağlıklı/Nötr)",
+        "precision": 0.9568965517241379,
+        "recall": 0.9910714285714286,
+        "f1_score": 0.9736842105263158,
+        "support": 224
+      },
+      {
+        "class_id": 1,
+        "class_name": "VAR (Bilişsel Çarpıtma)",
+        "precision": 0.9907407407407407,
+        "recall": 0.9553571428571429,
+        "f1_score": 0.9727272727272728,
+        "support": 224
+      }
+    ],
+    "confusion_matrix": [
+      [
+        222,
+        2
+      ],
+      [
+        10,
+        214
+      ]
+    ],
+    "total_samples": 448
+  },
+  "model2": {
+    "accuracy": 0.9688385269121813,
+    "macro_avg": {
+      "precision": 0.9690659006782296,
+      "recall": 0.9691905591905592,
+      "f1_score": 0.9689183478089352
+    },
+    "weighted_avg": {
+      "precision": 0.9691926343114996,
+      "recall": 0.9688385269121813,
+      "f1_score": 0.9688078927438974
+    },
+    "per_class": [
+      {
+        "class_id": 0,
+        "class_name": "kişiselleştirme",
+        "precision": 0.9708029197080292,
+        "recall": 0.95,
+        "f1_score": 0.9602888086642599,
+        "support": 140
+      },
+      {
+        "class_id": 1,
+        "class_name": "zihin okuma",
+        "precision": 1.0,
+        "recall": 0.9785714285714285,
+        "f1_score": 0.9891696750902527,
+        "support": 140
+      },
+      {
+        "class_id": 2,
+        "class_name": "olumluyu görmezden gelme",
+        "precision": 0.9432624113475178,
+        "recall": 0.9851851851851852,
+        "f1_score": 0.9637681159420289,
+        "support": 135
+      },
+      {
+        "class_id": 3,
+        "class_name": "abartma",
+        "precision": 0.9659863945578231,
+        "recall": 0.993006993006993,
+        "f1_score": 0.9793103448275862,
+        "support": 143
+      },
+      {
+        "class_id": 4,
+        "class_name": "aşırı genelleme",
+        "precision": 0.9652777777777778,
+        "recall": 0.9391891891891891,
+        "f1_score": 0.952054794520548,
+        "support": 148
+      }
+    ],
+    "confusion_matrix": [
+      [
+        133,
+        0,
+        2,
+        2,
+        3
+      ],
+      [
+        2,
+        137,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        133,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        142,
+        0
+      ],
+      [
+        2,
+        0,
+        4,
+        3,
+        139
+      ]
+    ],
+    "total_samples": 706
+  },
+  "pipeline": {
+    "accuracy": 0.9516129032258065,
+    "macro_avg": {
+      "precision": 0.9576005574039034,
+      "recall": 0.9482210378043711,
+      "f1_score": 0.952133077586884
+    },
+    "weighted_avg": {
+      "precision": 0.953013260527232,
+      "recall": 0.9516129032258065,
+      "f1_score": 0.9514244212839286
+    },
+    "per_class": [
+      {
+        "class_id": 0,
+        "class_name": "Sağlıklı / Yok",
+        "precision": 0.9061224489795918,
+        "recall": 0.9910714285714286,
+        "f1_score": 0.9466950959488273,
+        "support": 224
+      },
+      {
+        "class_id": 1,
+        "class_name": "kişiselleştirme",
+        "precision": 0.9696969696969697,
+        "recall": 0.9142857142857143,
+        "f1_score": 0.9411764705882353,
+        "support": 140
+      },
+      {
+        "class_id": 2,
+        "class_name": "zihin okuma",
+        "precision": 1.0,
+        "recall": 0.9714285714285714,
+        "f1_score": 0.9855072463768116,
+        "support": 140
+      },
+      {
+        "class_id": 3,
+        "class_name": "olumluyu görmezden gelme",
+        "precision": 0.9481481481481482,
+        "recall": 0.9481481481481482,
+        "f1_score": 0.9481481481481482,
+        "support": 135
+      },
+      {
+        "class_id": 4,
+        "class_name": "abartma",
+        "precision": 0.9657534246575342,
+        "recall": 0.986013986013986,
+        "f1_score": 0.9757785467128027,
+        "support": 143
+      },
+      {
+        "class_id": 5,
+        "class_name": "aşırı genelleme",
+        "precision": 0.9558823529411765,
+        "recall": 0.8783783783783784,
+        "f1_score": 0.9154929577464789,
+        "support": 148
+      }
+    ],
+    "confusion_matrix": [
+      [
+        222,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        6,
+        128,
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        1,
+        2,
+        136,
+        1,
+        0,
+        0
+      ],
+      [
+        6,
+        0,
+        0,
+        128,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        1,
+        141,
+        0
+      ],
+      [
+        9,
+        2,
+        0,
+        4,
+        3,
+        130
+      ]
+    ],
+    "total_samples": 930
+  }
+}
